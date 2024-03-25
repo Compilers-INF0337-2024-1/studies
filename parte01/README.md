@@ -86,7 +86,46 @@ Dados de entrada -> Programa objeto -> Resultados
                       Dados de entrada      
 ---Programa fonte--->|Intepretador|---Resultados--->
 
+### Interpretadores
+1. Não há tradução de linguagem
+2. Apresenta melhor diagnóstico de erros, pois executa o programa fonte instrução por instrução.
+3. Exemplos de linaguagens interpretadas: Python, Ruby, JavaScript, PHP, ...
+
+* Pontos negativos de interpretadores:
+1. Tempo de execução maior, pois decodifica cada instrução de alto nível para o SO durante a execução.
+2. Exige mais espaço em memória para execução, pois precisa mantar o interpretador carregado.
+3. Processo difícil para linguagens complexas, pois o significado de cada instrução deve ser determinado em tempo de execução.
+
+### Sistema híbrido
+* Recebe como entrada o programa fonte, gerando um código intermediário que é executado diretamente sobre as entradas fornecidas pelo usuário.
+
+---Programa fonte--->|Compilador ou Tradutor|---Programa intermediário--->|Interpretador ou Máquina Virtual|---Resultados--->
+
+* Traduz linguagem de alto nível para uma intermediária.
+* É mais rápido do que interpretação pura.
+* Aenas o código intermediário é interpretado.
+* É mais portável, pois a linguagem intermediária não precisa ser recompilada.
+* Tenta combinar o melhor de compiladores e interpretadores.
+
+```Exemplos de linguagens com sistema híbrido: Java, C#, Kotlin, ...```
+
+* Linguagem Java
+1. Compina compilação e interpretação
+2. Compilação gere bytecode (Código portável)
+    * Interpretação do bytecode é feita pela Java Virtual Machine (JVM)
+    * JVM usa compilação just-in-time (JIT) que permite que partes do código (mais utilizadas) sejam compiladas para código de máquina para otimização da execução.
+
+
 
 ## Linguagens de programação
+#### Gerações de linguagens
+* Primeira: linguagens de máquina
+* Segunda: linguagens simbólicas ou de montagem
+* Terceira: linguagens procedurais
+    * Exemplo: C/C++, Java, Python, PHP, Pearl, C#, Rust, ...
+* Quarta: linguagens orientadas a aplicação
+    * Exemplos: Unix shell, SQL, R, ...
+* Quinta: linguagens baseadas na solução de problemas usando restrições (em especial, em IA)
+    * Exemplo: Prolog, Mercury, ICAD, ...
 
 ## Uso da teoria em aplicações
