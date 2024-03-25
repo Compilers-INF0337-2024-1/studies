@@ -66,7 +66,7 @@ Dados de entrada -> Programa objeto -> Resultados
 * Etapa importante e complexa:
 1. Diferentes objetivos: menor tempo de execução, menor consumo de energia.
 2. Diferentes arquiteturas de processadores.
-
+<
 ### Processo de tradução
 |Código fonte| ---compilador---> |Código objeto| ---Ligador/carregador---> |Código executável| ---Execução-->
 
@@ -80,8 +80,12 @@ Dados de entrada -> Programa objeto -> Resultados
 ## Outros tipos de tradutores
 * <b>Montadores</b> (Assemblers):
 1. Mapeiam instruções em linguagem simbólica ou de montagem (assembly) para linguagem de máquina.
-2. Desmontadores (disassemblers) fazem o processo inverso.
- 
+2. <b>Desmontadores</b> (disassemblers): fazem o processo inverso.
+3. <b>Interpretador</b>: executa diretamente as operações específicas no programa sobre as entradas fornecidas pelo usuário.
+
+                      Dados de entrada      
+---Programa fonte--->|Intepretador|---Resultados--->
+
 
 ## Linguagens de programação
 
