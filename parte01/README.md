@@ -36,6 +36,7 @@ Sistema que recebe como entrada um programa escrito em uma linguagem de programa
 
 Programa fonte -> Compilador -> Programa objeto
 
+<img src="https://raw.githubusercontent.com/Compilers-INF0337-2024-1/studies/main/parte01/img01.png">
 <hr/>
 
 ---------------- Tempo de execução --------------

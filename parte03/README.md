@@ -1,8 +1,8 @@
 # Compiladores
 ## Linguagens Regulares
 
-- [Definições](#definicoes)
-- [Expressões regulares](#expressoes-regulares)
+- [Definições](#definições)
+- [Expressões regulares](#expressões-regulares)
 
 ### Definições
 * Alfabeto
