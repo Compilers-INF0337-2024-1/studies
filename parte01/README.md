@@ -32,16 +32,11 @@ Sistema que recebe como entrada um programa escrito em uma linguagem de programa
 
 * <b>Compiladores</b>: tradutores que mapeiam programas escritos em linguagem de alto nível para programas equivalentes em linguagem símbólica ou de máquina.
 
----------------- Tempo de compilação --------------
-
-Programa fonte -> Compilador -> Programa objeto
-
 <img src="https://raw.githubusercontent.com/Compilers-INF0337-2024-1/studies/main/parte01/img01.png">
+
 <hr/>
 
----------------- Tempo de execução --------------
 
-Dados de entrada -> Programa objeto -> Resultados
 
 * Princípios fundamentais
 1. Preparação da significado do programa a ser compilado
@@ -70,7 +65,8 @@ Dados de entrada -> Programa objeto -> Resultados
 2. Diferentes arquiteturas de processadores.
 <
 ### Processo de tradução
-|Código fonte| ---compilador---> |Código objeto| ---Ligador/carregador---> |Código executável| ---Execução-->
+
+<img src="https://raw.githubusercontent.com/Compilers-INF0337-2024-1/studies/main/parte01/img02.png">
 
 - Código fonte: Editor de texto/IDE
 - Código execuável: criação de código executável e alocação de memória.
@@ -85,8 +81,8 @@ Dados de entrada -> Programa objeto -> Resultados
 2. <b>Desmontadores</b> (disassemblers): fazem o processo inverso.
 3. <b>Interpretador</b>: executa diretamente as operações específicas no programa sobre as entradas fornecidas pelo usuário.
 
-                      Dados de entrada      
----Programa fonte--->|Intepretador|---Resultados--->
+<img src="https://raw.githubusercontent.com/Compilers-INF0337-2024-1/studies/main/parte01/img03.png">
+
 
 ### Interpretadores
 1. Não há tradução de linguagem
@@ -101,7 +97,7 @@ Dados de entrada -> Programa objeto -> Resultados
 ### Sistema híbrido
 * Recebe como entrada o programa fonte, gerando um código intermediário que é executado diretamente sobre as entradas fornecidas pelo usuário.
 
----Programa fonte--->|Compilador ou Tradutor|---Programa intermediário--->|Interpretador ou Máquina Virtual|---Resultados--->
+<img src="https://raw.githubusercontent.com/Compilers-INF0337-2024-1/studies/main/parte01/img04.png">
 
 * Traduz linguagem de alto nível para uma intermediária.
 * É mais rápido do que interpretação pura.
