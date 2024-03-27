@@ -1,9 +1,10 @@
 # Compiladores
+## Introdução
 
-- [O estudo de compiladores](#O-estudo-de-compiladores)
-- [Outros tipos de tradutores](#Outros-tipos-de-tradutores)
-- [Linguagens de programação](#Linguagens-de-programação)
-- [Uso da teoria em aplicações](#Uso-da-teoria-em-aplicações)
+- [O estudo de compiladores](#o-estudo-de-compiladores)
+- [Outros tipos de tradutores](#outros-tipos-de-tradutores)
+- [Linguagens de programação](#linguagens-de-programação)
+- [Uso da teoria em aplicações](#uso-da-teoria-em-aplicações)
 
 ## O estudo de compiladores
 * Tradução para um formato que permita a execução em uma máquina
@@ -129,3 +130,24 @@ Dados de entrada -> Programa objeto -> Resultados
     * Exemplo: Prolog, Mercury, ICAD, ...
 
 ## Uso da teoria em aplicações
+Construir um compilador pode envolver várias áreas:
+* Linguagens de programação
+* Arquiteturas de computadores
+* Sistemas Operacionais
+* Linguagem de montagem
+* Estruturas de dados
+* Complexidade de algoritmos
+* Linguagens formais e autômatos
+
+#### Construção de ferramentas para processamento de linguagens:
+* Linguagens de programação
+* Formatadores de textos (HTML, Latex)
+* Interpretadores de consultas em bancos de dados (queries)
+#### Outras aplicações:
+* Construção de programas para conversão de base de dados
+* Rotinas para leitura de arquivos estruturados
+* Analisadores ortográficos
+* Otimizações de arquiteturas de computador
+* Projeto de novas arquiteturas de computador
+* Geração de código para hardware específico
+* Automação de tarefas em TIC.
