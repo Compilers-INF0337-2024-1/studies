@@ -123,7 +123,6 @@ E também,
 
 ### Fase de síntese
 
-
 #### Geração de código intermediário
 <img src="https://raw.githubusercontent.com/Compilers-INF0337-2024-1/studies/main/parte02/img08.png">
 
@@ -170,3 +169,4 @@ E também,
         * Quando está disponível para mais de uma plataforma.
     * Portabilidade de geração de código.
         * Quando o compilador consegue gerar código para mais de uma plataforma.
+
